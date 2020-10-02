@@ -1,0 +1,111 @@
+body {
+    background-image: url('../assets/HomeBackground.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/* SIGN UP BOX */
+
+.box_container {
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 850px;
+    margin: 6rem auto 8.1rem auto;
+    width: 400px;
+}
+
+.box_content {
+    padding: 12px 44px;
+}
+
+.title {
+    font-family: "Raleway Thin", sans-serif;
+    letter-spacing: 4px;
+    padding-bottom: 23px;
+    padding-top: 13px;
+    text-align: center;
+}
+
+.title_line {
+    background: -webkit-linear-gradient(right, goldenrod, rgb(153, 121, 39));
+    height: 5px;
+    width: 315px;
+    margin: -1.1rem auto 0 auto;
+}
+
+
+/* FORM CONTENT */
+
+a {
+    text-decoration: none;
+}
+
+label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    padding-top: 22px;
+}
+
+#form {
+    flex-direction: column;
+    align-items: left;
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.form-border {
+    background: -webkit-linear-gradient(right, goldenrod, rgb(153, 121, 39));
+    height: 1px;
+    width: 100%;
+}
+
+.form-content {
+    background: #fbfbfb;
+    padding-top: 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+
+
+/* SIGN UP and BACK TO HOME BUTTON */
+
+.back_to_home {
+    color: rgb(153, 121, 39);
+    font-family: "Raleway", sans-serif;
+    font-size: 10pt;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.signup_button {
+    background: -webkit-linear-gradient(right, goldenrod, rgb(153, 121, 39));
+    border: none;
+    border-radius: 21px;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.3px;
+    margin: 0 auto;
+    margin-top: 50px;
+    transition: 0.25s;
+    width: 153px;
+    box-shadow: 0px 1px 8px rgb(153, 121, 39);
+    cursor: pointer;
+    color: white;
+}
+
+.signup_button:hover {
+    box-shadow: 0px 1px 18px rgb(153, 121, 39);
+}
+
+
+/* RESPONSIVE WEB DESIGN : MEDIA SCREEN MAX 800px */
+
+@media screen and (max-width: 800px) {
+    .box_container {
+        width: 430px;
+    }
+}

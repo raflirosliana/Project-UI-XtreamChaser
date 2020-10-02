@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- META VIEWPORT TAG -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Galleries Page</title>
+
+    <link rel="stylesheet" href="../CSS/Galleries.css">
+    <script src="../JS/Galleries.js"></script>
+
+</head>
+
+
+<body>
+    <!-- HEADER -->
+    <div class="header_container">
+        <div class="first_content">
+            <h1>XTream Chaser IV : The Daimyo Revenge</h1>
+        </div>
+
+        <div class="logo_content">
+            <img src="../assets/logo.png" alt="logo">
+        </div>
+
+        <div class="second_content">
+            <h3>!!! Follow The Lead Of Your Daimyo, Then Unleash Your Destiny !!!</h3>
+
+        </div>
+    </div>
+
+    <!-- NAVIGATION BAR -->
+    <div class="navbar">
+        <a href="Home.html">Home Page</a>
+        <a href="(extra_page_for_release_information).html">Release Information</a>
+        <div class="dropdown_menu">
+            <button class="dropbtn">Game Information</button>
+
+            <div class="dropdown-content">
+                <a href="Galleries.html">Galleries</a>
+                <a href="Characters.html">Characters</a>
+                <a href="Lore.html">Lore</a>
+            </div>
+        </div>
+
+        <a href="../HTML/Pre-Register.html">Pre-Register Now</a>
+
+        <div class="dropdown_menu">
+            <button class="dropbtn">Lets Order Now</button>
+            <div class="dropdown-content">
+                <a href="https://store.steampowered.com/">Steam</a>
+                <a href="https://www.epicgames.com/store/en-US/">Epic Games Store</a>
+                <a href="https://store.ubi.com/ie/home">Ubisoft</a>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <!-- CONTENT GALLERY -->
+    <center>
+        <div class="gallery_title">Gameplay Provided</div>
+    </center>
+    <br>
+
+    <div class="row">
+        <div class="column" onclick="show_content('storyTab')">
+            <div id="column1">Storyline Adventure ⮛</div>
+        </div>
+        <div class="column" onclick="show_content('pvpTab')">
+            <div id="column1">Online PvP ⮛</div>
+        </div>
+        <div class="column" onclick="show_content('roleplayTab')">
+            <div id="column1">Online Role Playing ⮛</div>
+        </div>
+    </div>
+
+
+    <div id="storyTab" class="content_container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <center>
+            <h1>Storyline Adventure Gameplay Overview Gallery</h1>
+        </center>
+        <div class="content1">
+            <div class="imgcontent1">
+                <center><img src="../assets/content15.jpg" alt="image1" width="90%"></center>
+            </div>
+
+            <div class="wordcontent">
+                <center>
+                    <h3>Story Mode Will Bring You As A Daimyo Servant In Battle</h3>
+                    <p>As a samurai, our main character is ordered to protect our land from the attacker and attack to take over another land. Story mode bring you to an unlimited journey of a samurai in japan around 1100 AD. The main quest can be obtain
+                        from our Daimyo, and there are also a hundreds side quest during this mode. you can found a great weapon and armor that can be upgrade in the local merchant.</p>
+                </center>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="pvpTab" class="content_container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <center>
+            <h1>Online PvP Gameplay Overview Gallery</h1>
+        </center>
+        <div class="content2">
+            <div class="imgcontent2">
+                <center><img src="../assets/content1.jpg" alt="image2" width="90%"></center>
+            </div>
+
+            <div class=" wordcontent ">
+                <center>
+                    <h3>Online PvP Againts Another Player Online</h3>
+                    <p>Online Player Vs Player will bring you to a fierce battle between Samurai. You will take into a one on one combat with another player. You can sieze the loot of your opponent if you win. from this mode you can obtain a unique item
+                        that u can used in 3 game mode. Or you can also buy it from the online market. This mode will improve your battling skill in this game. Enjoy The Game</p>
+                </center>
+            </div>
+        </div>
+    </div>
+
+    <div id="roleplayTab" class="content_container ">
+        <span onclick="this.parentElement.style.display='none' " class="closebtn ">&times;</span>
+        <center>
+            <h1>Online Role Play Gameplay Overview Gallery</h1>
+        </center>
+        <div class="content3">
+            <div class="imgcontent3 ">
+                <center><img src="../assets/content13.png " alt="image3 " width="90%"></center>
+            </div>
+
+            <div class=" wordcontent ">
+                <center>
+                    <h3>Online Role Play In Domestic Server</h3>
+                    <p>Online Role play is the most exciting part in this game. You will meet another player around the globe in online server. You can make your own clan, grow your clan, and expand your clan territory. You have to choose your role in this
+                        mode, whether it is a Clan Leader, Guards, Blacksmith, Archer, or Warrior. Each role have a task that must be done. You can use the items from the PvP mode in this game. Build, Grow, and Expand your clan.</p>
+                </center>
+            </div>
+        </div>
+    </div>
+
+    <!-- EVENTS -->
+    <div class="event_container">
+        <center>
+            <p class="title">PRE ORDER NOW AND GET 15% OFF</p>
+        </center>
+
+        <div class="sys_img">
+            <img src="../assets/content16.jpg" alt="img_info" width="60%">
+        </div>
+
+        <div class="left_content1">
+            <p> NOW AVAILABLE ON : STEAM, Epic Games Store, Ubisoft Store. <br> <br> Order Now And Get 15% OFF!!!</p>
+        </div>
+
+    </div>
+    <br> <br>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <div class="word_content">
+            <center>
+                <a href="https://legal.ubi.com/termsofuse/en-INTL">Term Of Use</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.epicgames.com/site/en-US/privacypolicy">Privacy Policy</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://support.ubisoft.com/en-gb/Faqs/000017111/Cookies-on-the-Ubisoft-website-1364550545742">Cookie Settings</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.epicgames.com/help/en-US/">Support</a>
+            </center>
+        </div>
+        <br> <br>
+
+        <div class="footer_img">
+            <center>
+                <img src="../assets/content9.png" alt="mature_icon" width="230px">
+
+                <img src="../assets/content10.png" alt="privacy_icon" width="100px">
+            </center>
+        </div>
+
+        <div class="footer_word">
+            <p>
+                ©2020 Binus University, Inc. All rights reserved. Published and distributed by Kelompok 4. Binus University is a trademark of Binus University Publishing Inc. All other trademarks and trade names are the properties of their respective owners. Sunib is
+                a trademark of Sunib Madura LLC. XTream Chaser IV : The Daimyo Revenge is a trademark of Kelompok 4 Entertainment Inc. Binus University and Sunib Madura LLC are the publisher of XTream Chaser IV : The Daimyo Revenge.
+                <br> KELOMPOK 4 HCI SUNIB
+            </p>
+        </div>
+
+    </div>
+
+
+</body>
+
+
+</html>

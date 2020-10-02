@@ -1,0 +1,250 @@
+body {
+    background-image: url('../assets/HomeBackground.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/* HEADER */
+
+.header_container {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.first_content {
+    color: whitesmoke;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+
+.first_content:hover {
+    color: goldenrod;
+}
+
+.second_content {
+    font-size: 25px;
+}
+
+.second_content:hover {
+    color: goldenrod;
+}
+
+
+/* NAVIGATION BAR */
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(43, 43, 43);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown_menu {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown_menu .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover,
+.dropdown_menu:hover .dropbtn {
+    background-color: goldenrod;
+    color: black;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f3f3f3;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(192, 187, 187);
+}
+
+.dropdown_menu:hover .dropdown-content {
+    display: block;
+}
+
+
+/* SLIDESHOW */
+
+#slider {
+    height: 500px;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 54%;
+}
+
+#slider .slides {
+    display: block;
+    width: 6000px;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    width: 820px;
+    height: 4000px;
+}
+
+
+/* GAME SYNOPSIS */
+
+.game_synopsis_container .title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: goldenrod;
+    border-radius: 30px;
+    color: rgb(43, 43, 43);
+    font-size: 50px;
+    width: 65%;
+    padding: 5px;
+}
+
+.game_synopsis_container {
+    width: 35%;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+.game_synopsis_container .sys_img {
+    float: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.game_synopsis_container .left_content1 {
+    font-size: 40px;
+    text-align: left;
+}
+
+
+/* FOOTER */
+
+.footer .word_content a {
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    text-decoration: none;
+    background-color: rgb(156, 119, 23);
+}
+
+.footer .word_content a:hover {
+    background-color: goldenrod;
+    font-size: 18px;
+}
+
+.footer .footer_word {
+    width: 35%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+
+/* RESPONSIVE WEB DESIGN : MEDIA SCREEN MAX 800px */
+
+@media screen and (max-width: 800px) {
+    /* HEADER */
+    .first_content {
+        font-size: 22px;
+    }
+    .second_content {
+        font-size: 17px;
+    }
+    /* SLIDESHOW */
+    #slider {
+        width: 820px;
+        height: 500px;
+        overflow: hidden;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    #slider .slides {
+        display: block;
+        width: 6000px;
+        height: 500px;
+        margin: 0;
+        padding: 0;
+    }
+    #slider .slide {
+        float: left;
+        list-style-type: none;
+        width: 820px;
+        height: 4000px;
+    }
+    /* GAME SYNOPSIS */
+    .game_synopsis_container .title {
+        font-size: 35px;
+        width: 75%;
+    }
+    .game_synopsis_container .left_content1 {
+        font-size: 24px;
+        text-align: left;
+    }
+    /* FOOTER */
+    .footer .footer_word {
+        font-size: 13px;
+    }
+}

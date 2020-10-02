@@ -1,0 +1,77 @@
+body,
+html {
+    height: 100%;
+    background-size: cover;
+    background-image: url('../assets/HomeBackground.jpg');
+}
+
+.background {
+    height: 100%;
+    color: goldenrod;
+    font-family: "Courier New", Courier, monospace;
+    background-position: center;
+    position: relative;
+    font-size: 25px;
+}
+
+.line {
+    background: -webkit-linear-gradient(right, goldenrod, rgb(153, 121, 39));
+    height: 5px;
+    width: 100%;
+    margin: -1.1rem auto 0 auto;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 40px;
+}
+
+#middle {
+    width: 25%;
+    padding: 5px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: goldenrod;
+    font-size: 30px;
+    color: rgb(43, 43, 43);
+}
+
+.back_home_button {
+    background: rgb(153, 121, 39);
+    border: none;
+    border-radius: 21px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 42.3px;
+    margin: 0 auto;
+    margin-top: 50px;
+    transition: 0.25s;
+    width: 153px;
+    box-shadow: 0px 1px 8px rgb(153, 121, 39);
+    cursor: pointer;
+    color: rgb(43, 43, 43);
+}
+
+.back_home_button:hover {
+    box-shadow: 0px 1px 18px rgb(153, 121, 39);
+}
+
+
+/* RESPONSIVE WEB DESIGN : MEDIA SCREEN MAX 800px */
+
+@media screen and (max-width: 800px) {
+    #middle {
+        width: 45%;
+    }
+}
